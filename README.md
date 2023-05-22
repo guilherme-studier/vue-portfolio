@@ -1,25 +1,18 @@
 <!-- Title -->
-<h1 align="center"> RocketSeat 🔥 Ignite ReactJS </h1>
-
-<!-- Subtitle -->
-<h2 align="center"> Desafio 1 - Praticando Conceitos ( ToDo ) </h2>
+<h1 align="center"> Vue Portfolio </h1>
 
 <!-- Sobre o Projeto -->
 ## 🚀 Sobre o Projeto
-Desafio React com objetivo de desenvolver uma aplicação de controle de tarefas no estilo *to do list*, que contém as seguintes funcionalidades:
-
-* Adicionar uma nova tarefa
-* Marcar e desmarcar uma tarefa como concluída
-* Remover uma tarefa da listagem
-* Mostrar o progresso de conclusão das tarefas
+O repositório Vue Portfolio é um projeto que demonstra um pouco das minhas habilidades de desenvolvimento com Vue.js. Uma combinação perfeita de Vue, Tailwind CSS e outras tecnologias.
 
 Conceitos abordados:
 
 * Estados
 * Imutabilidade de estado
-* Listas e chaves no React
-* Propriedades
+* Listas e chaves com Vue
 * Componentização
+* Vue Router
+* Vue X
 
 
 ## 🖼️ Imagens do Projeto
@@ -29,15 +22,16 @@ Conceitos abordados:
 
 ## 🧰 Tecnologias e Bibliotecas
 
-* [ReactJS](https://pt-br.reactjs.org/tutorial/tutorial.html)
-* [Styled Component](https://www.npmjs.com/package/styled-components) - Biblioteca CSS in JS
-* [TypeScript](https://www.typescriptlang.org/)
+-  [Vue](https://vuejs.org/guide/introduction.html)
+-  [Vue Router](https://router.vuejs.org/)
+-  [Vue X](https://vuex.vuejs.org/)
+-  [Axios](https://github.com/axios/axios)
 
 
 ## ⚙️ Rodando o Projeto
 ```bash
 # Clone este repositório para a pasta anterior
-$ git clone https://github.com/guilherme-studier/react-challenge-ignite-01.git
+$ git clone https://github.com/guilherme-studier/vue-portfolio.git
 # ou use a opção de download.
 
 # Instale as dependências

@@ -1,85 +1,54 @@
-# Vuejs & TailwindCSS Portfolio - With Dark Mode
+<!-- Title -->
+<h1 align="center"> RocketSeat 🔥 Ignite ReactJS </h1>
 
-A simple portfolio starter theme built with Vue.js v3 and Tailwind CSS v3.
+<!-- Subtitle -->
+<h2 align="center"> Desafio 1 - Praticando Conceitos ( ToDo ) </h2>
 
-![Vuejs-TailwindCSS-Portfolio](https://user-images.githubusercontent.com/16396664/140909796-815239e4-a986-46ad-bbd0-4b166127bbb8.JPG)
+<!-- Sobre o Projeto -->
+## 🚀 Sobre o Projeto
+Desafio React com objetivo de desenvolver uma aplicação de controle de tarefas no estilo *to do list*, que contém as seguintes funcionalidades:
 
-## Demo URL
+* Adicionar uma nova tarefa
+* Marcar e desmarcar uma tarefa como concluída
+* Remover uma tarefa da listagem
+* Mostrar o progresso de conclusão das tarefas
 
-[https://vuejs-tailwindcss-portfolio.netlify.com](https://vuejs-tailwindcss-portfolio.netlify.com)
+Conceitos abordados:
 
-## Other versions of this project
+* Estados
+* Imutabilidade de estado
+* Listas e chaves no React
+* Propriedades
+* Componentização
 
--   Nuxt.js Version: [https://github.com/realstoman/nuxtjs-tailwindcss-portfolio](https://github.com/realstoman/nuxtjs-tailwindcss-portfolio)
--   React Version: [https://github.com/realstoman/react-tailwindcss-portfolio](https://github.com/realstoman/react-tailwindcss-portfolio)
--   Next.js Version: [https://github.com/realstoman/nextjs-tailwindcss-portfolio](https://github.com/realstoman/nextjs-tailwindcss-portfolio)
 
-## Features
+## 🖼️ Imagens do Projeto
+<div align="center">
+  <img src="./src/assets/screenshot.png">
+</div>
 
--   Simple and responsive design
--   [Vue.js v3](https://vuejs.org) with [Vue Router](https://router.vuejs.org)
--   [Tailwind CSS v3](https://tailwindcss.com)
--   Theme Switcher with Dark Mode
--   Composition API
--   Vue transitions
--   Reusable Components
--   Auto Counter
--   Projects filter by category
--   Projects filter by search
--   Projects carousel
--   Vue.js smooth scroll
--   Dynamic forms
--   Scroll to top button
--   Download file button
+## 🧰 Tecnologias e Bibliotecas
 
-### To Contribute to this project, read the [Contribution Guidlines](https://github.com/realstoman/vuejs-tailwindcss-portfolio/blob/main/CONTRIBUTING.md)
+* [ReactJS](https://pt-br.reactjs.org/tutorial/tutorial.html)
+* [Styled Component](https://www.npmjs.com/package/styled-components) - Biblioteca CSS in JS
+* [TypeScript](https://www.typescriptlang.org/)
 
-## Setup
 
-1. Make sure you have Node JS installed. If you don't have it:
+## ⚙️ Rodando o Projeto
+```bash
+# Clone este repositório para a pasta anterior
+$ git clone https://github.com/guilherme-studier/react-challenge-ignite-01.git
+# ou use a opção de download.
 
--   [Download it from nodejs.org](https://nodejs.org)
--   [Install it using NVM ](https://github.com/nvm-sh/nvm)
--   If you're on Mac, Homebrew is a good option too:
+# Instale as dependências
+$ yarn install
+ou
+$ npm install
 
+# Executando o Projeto
+$ yarn dev 
+ou
+$ npm dev
+
+# Acesse http://localhost:3000 no seu navagador
 ```
-brew install node
-```
-
-2. Clone the repo:
-
-```
-git clone https://github.com/realstoman/vuejs-tailwindcss-portfolio.git
-```
-
-3. Open the project folder:
-
-```
-cd vuejs-tailwindcss-portfolio
-```
-
-4. Install packages and dependencies:
-
-```
-npm install
-```
-
-5. Start a local dev server at `http://localhost:8080`:
-
-```
-npm run serve
-```
-
-## Notes
-
--   Always run `npm install` after pulling new changes
--   I'll be constantly updating this repo as I'll be adding more sections to it, so please always check the projects section of this repo to see what tasks are under todo and in progress
--   Coming Soon [I'll be doing a screencast](https://www.youtube.com/realstoman). Soon I'll be uploading a video to my YouTube channel where I'll be going through the process of creating this portoflio
--   Illustrations from [unDraw](https://undraw.co) and [Freepik](https://freepik.com)
--   Images from [Unsplash](https://unsplash.com)
--   Feel free to use it as your own portfolio
--   Contributions are welcome
-
-### License
-
-[MIT](https://github.com/realstoman/vuejs-tailwindcss-portfolio/blob/main/LICENSE)

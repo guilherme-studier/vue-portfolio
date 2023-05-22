@@ -17,7 +17,7 @@ Conceitos abordados:
 
 ## 🖼️ Imagens do Projeto
 <div align="center">
-  <img src="./src/assets/screenshot.png">
+  <img src="./src/assets/images/screenshot.png">
 </div>
 
 ## 🧰 Tecnologias e Bibliotecas

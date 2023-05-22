@@ -19,17 +19,16 @@ export default {
 	<div class="mt-10 sm:mt-20 bg-primary-light dark:bg-ternary-dark shadow-sm">
 		<!-- About me counters -->
 		<div
-			class="font-general-regular container mx-auto py-20 block sm:flex sm:justify-between sm:items-center"
+			class="font-general-regular container mx-auto py-20 block sm:flex sm:justify-around sm:items-center"
 		>
 			<!-- Years of experience counter -->
 			<div class="mb-20 sm:mb-0">
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="12"
+					:endAmount="3"
 					:duration="1"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 					aria-label="About Status Counter"
 				/>
@@ -45,11 +44,10 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="20"
+					:endAmount="11"
 					:duration="1"
 					suffix="k+"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span
@@ -58,34 +56,14 @@ export default {
 				>
 			</div>
 
-			<!-- Positive feedback counter -->
-			<div class="mb-20 sm:mb-0">
-				<counter
-					ref="counter"
-					:startAmount="0"
-					:endAmount="92"
-					:duration="1"
-					suffix="%"
-					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
-					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
-				/>
-				<span
-					class="block text-md text-ternary-dark dark:text-ternary-light"
-				>
-					{{ feedbackTitle }}
-				</span>
-			</div>
-
 			<!-- Projects completed counter -->
 			<div class="mb-20 sm:mb-0">
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="77"
+					:endAmount="31"
 					:duration="1"
 					:autoinit="true"
-					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span

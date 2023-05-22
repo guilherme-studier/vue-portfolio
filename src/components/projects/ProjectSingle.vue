@@ -5,8 +5,9 @@ export default {
 </script>
 
 <template>
-	<router-link
-		to="/projects/single-project"
+	<a
+		:href="project.url"
+		target="__blank"
 		class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark"
 		aria-label="Single Project"
 	>
@@ -14,7 +15,7 @@ export default {
 			<img
 				:src="project.img"
 				:alt="project.title"
-				class="rounded-t-xl border-none"
+				class="rounded-t-xl border-none project-img"
 			/>
 		</div>
 		<div class="text-center px-4 py-6">
@@ -28,7 +29,17 @@ export default {
 				>{{ project.category }}</span
 			>
 		</div>
-	</router-link>
+	</a>
 </template>
 
-<style lang="scss" scoped></style>
+<style scoped>
+.project-img {
+	height: 200px;
+	width: 100%;
+}
+
+.project-img img {
+	width: 100%;
+	height: auto;
+}
+</style>

@@ -13,9 +13,16 @@ export default {
 		>
 			<img
 				:src="projectImage.img"
-				class="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
-				alt="{{ projectImage.title }}"
+				:class="['rounded-xl', 'cursor-pointer', 'shadow-lg', 'sm:shadow-none']"
+				:alt="projectImage.title"
+				:style="{ width: '100%', height: '100%' }"
 			/>
 		</div>
 	</div>
 </template>
+In the updated code, the :style binding is used to apply the width: 100% and height: 100% styles to the <img> tag. The :style attribute accepts an object where you can specify CSS properties and their values.
+
+Make sure to include the class binding `:class="['rounded-xl', 'cursor
+
+
+

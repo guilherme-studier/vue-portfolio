@@ -6,12 +6,22 @@ export default {
 				{
 					id: 1,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						'Hello, I am a Front-end Developer with three years of experience working with technologies such as Javascript, Vue, React and Typescript. I have a strong commitment to code quality and am always seeking to learn and stay up to date with the latest technology trends.',
 				},
 				{
 					id: 2,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						'I am results-oriented, with skills in teamwork, problem-solving, and resilience. I am very interested in collaborating on challenging projects with high-performance teams. Additionally, I have a proactive profile that seeks to understand user needs and create solutions that exceed their expectations.',
+				},
+				{
+					id: 2,
+					bio:
+						'If you would like to see my projects, I invite you to visit my profile on Github, where some of the projects I have developed are available: https://github.com/guilherme-studier.',
+				},
+				{
+					id: 2,
+					bio:
+						'Thank you for your attention, and I look forward to contributing to the success of your company.',
 				},
 			],
 		};

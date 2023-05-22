@@ -9,10 +9,8 @@ export default {
 		selectOptions: {
 			type: Array,
 			default: () => [
-				'Web Application',
-				'Mobile Application',
-				'UI/UX Design',
-				'Branding & Anim',
+				'Web Application - React',
+				'Web Application - Vue',
 			],
 		},
 	},

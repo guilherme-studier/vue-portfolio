@@ -1,7 +1,7 @@
 <!-- Title -->
 <h1 align="center"> Vue Portfolio </h1>
 
-<!-- Sobre -->
+<!-- Sobre o projeto -->
 ## 🚀 Sobre o Projeto
 O repositório Vue Portfolio é um projeto que demonstra um pouco das minhas habilidades de desenvolvimento com Vue.js. Uma combinação perfeita de Vue, Tailwind CSS e outras tecnologias.
 

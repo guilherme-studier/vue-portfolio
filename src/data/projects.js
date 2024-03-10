@@ -65,6 +65,13 @@ const projects = [
 		img: require('@/assets/images/web-project-9.jpg'),
 		url: 'https://github.com/guilherme-studier/vue-challenge-front-end-mentor-02'
 	},
+	{
+		id: 10,
+		title: 'MeSo - Second Opinion',
+		category: 'Professional Projects',
+		img: require('@/assets/images/meso.jpg'),
+		url: 'https://plataforma.meso.education/login'
+	},
 ];
 
 export default projects;

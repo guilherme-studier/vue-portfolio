@@ -11,6 +11,7 @@ export default {
 			default: () => [
 				'Web Application - React',
 				'Web Application - Vue',
+				'Professional Projects'
 			],
 		},
 	},

@@ -32,7 +32,7 @@ Conceitos abordados:
 ```bash
 # Clone este repositório para a pasta anterior
 $ git clone https://github.com/guilherme-studier/vue-portfolio.git
-# ou use a opção de download.
+# ou use a opção de download
 
 # Instale as dependências
 $ yarn install

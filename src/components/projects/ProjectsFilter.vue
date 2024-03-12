@@ -9,8 +9,6 @@ export default {
 		selectOptions: {
 			type: Array,
 			default: () => [
-				'Web Application - React',
-				'Web Application - Vue',
 				'Professional Projects'
 			],
 		},
